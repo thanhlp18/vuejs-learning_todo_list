@@ -23,29 +23,35 @@ const { toggleCompleted, deleteTodo } = store
   </div>
 </template>
 
-<style>
+<style scoped>
 .completed {
   text-decoration: line-through;
   opacity: 0.6;
+  font-weight: normal !important;
 }
 .todo-list {
   display: flex;
   width: 100%;
-  padding: 4px 16px 0px 16px;
+  padding: 2px 16px 2px 16px;
+  align-items: center;
+  justify-content: center;
 }
 .todo-item {
   margin-right: 24px;
   cursor: pointer;
   flex: 1;
+  font-weight: bold;
 }
-</style>
-<style scoped>
 span {
   cursor: pointer;
 }
 .item {
   display: flex;
   justify-content: center;
+}
+.todo-list:hover {
+  box-shadow: 1px 1px 5px 1px #dadada;
+  border-radius: 4px;
 }
 .content {
   display: flex;

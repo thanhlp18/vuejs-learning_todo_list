@@ -3,13 +3,9 @@ import TodoAppVue from '@/components/TodoApp.vue'
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <TodoAppVue />
-    </div>
-  </header>
-
-  <main></main>
+  <div class="wrapper">
+    <TodoAppVue />
+  </div>
 </template>
 
 <style scoped>
