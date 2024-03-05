@@ -1,35 +1,21 @@
-# todo-pina
+# Learning Vue Project - Events Show List
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
 
-## Recommended IDE Setup
+This is a simple project for learning Vue.js, with a focus on practicing state management with Pinia.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Installation
 
-## Customize configuration
+Follow these steps to install and run the project:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Clone the repository:
 
-## Project Setup
-
-```sh
+````bash
+git clone https://github.com/thanhlp18/vuejs-learning_todo_list
+````
+2. Navigate into the cloned repository:
+```bash
+cd vuejs-learning_todo_list
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+````
